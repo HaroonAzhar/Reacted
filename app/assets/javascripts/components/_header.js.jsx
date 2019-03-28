@@ -1,10 +1,11 @@
+var createReactClass = require('create-react-class');
 
-var Header = React.createClass({
-  render() {
-    return (
-      <div>
-        <h1>Hello, World!</h1>
-      </div>
-    );
-  }
+var Header = createReactClass({
+    render() {
+        return (
+            <div>
+                <h1>Hello, World!</h1>
+            </div>
+        )
+    }
 });
